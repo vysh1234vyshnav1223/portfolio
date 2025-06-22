@@ -18,7 +18,7 @@ export default function ContactSection() {
           </p>
 
           <motion.a
-            href="mailto:vyshnav@example.com"
+            href="mailto:vyshnavnair378@gmail.com"
             className="inline-flex items-center gap-3 text-white bg-accent px-6 py-3 rounded-full shadow-md hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
             whileHover={{ scale: 1.05 }}
           >
