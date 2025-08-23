@@ -50,7 +50,7 @@ export default function AboutOverview() {
         >
           <h2 className="text-3xl font-semibold mb-4">About Me</h2>
           <p className="text-gray-600 leading-relaxed mb-6 max-w-xl">
-            I’m a growth-focused marketer with a soft spot for automation. I love tinkering with tools, fine-tuning funnels, and cooking up campaigns that actually stick. I’m a growth-focused marketer with a soft spot for automation. I love tinkering with tools, fine-tuning funnels, and cooking up campaigns that actually stick. Currently exploring performance marketing seriously as a long-term career path.
+            I’m a growth-focused marketer with a soft spot for automation. I love tinkering with tools, fine-tuning funnels, and cooking up campaigns that actually stick.
           </p>
           <a href="/about" className="relative group text-accent font-medium">
             Learn more
