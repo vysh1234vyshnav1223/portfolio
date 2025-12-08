@@ -73,7 +73,6 @@ export default function ProjectsPage() {
             <p className="text-gray-600 mb-2">A MERN stack-powered crowdfunding web app focused on social impact campaigns. Features include user authentication, real-time donations, campaign pages, and progress tracking. All wrapped in a clean, responsive UI.</p>
             <a href="https://wethepeople-project.onrender.com/" className="text-accent font-semibold underline">Try it out →</a>
           </div>
-          
         </div>
       </div>
 
@@ -95,6 +94,11 @@ export default function ProjectsPage() {
             <h3 className="text-xl font-bold mb-2">Retention Playbook for an Meditation App</h3>
             <p className="text-gray-600 mb-2">Built a retention strategy for a meditation app using cohort analysis, behavioral insights, and lifecycle nudges. The playbook included activation tweaks, habit loops, and personalized re-engagement campaigns aimed at improving Day 1, 7, and 30 retention across core user segments.</p>
             <a href="https://lofty-submarine-301.notion.site/Retention-Playbook-How-to-Keep-Meditation-App-Users-Engaged-Beyond-Day-14-1e97873b02778096aef8c9c1bb6f12cf?pvs=25" className="text-accent font-semibold underline">Read more →</a>
+          </div>
+          <div className="p-6 border rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+            <h3 className="text-xl font-bold mb-2">Taskflow GTM Engine</h3>
+            <p className="text-gray-600 mb-2">Built a full PLG-ready GTM engine that scores users/accounts from product events and automatically routes PQLs/PQAs into HubSpot with tasks and deals - entirely on free-tier tools.</p>
+            <a href="https://lofty-submarine-301.notion.site/TaskFlow-GTM-Engine-Case-Study-Documentation-2c37873b0277805cb804f34a9f4a21b7?pvs=74" className="text-accent font-semibold underline">Read more →</a>
           </div>
         </div>
       </div>

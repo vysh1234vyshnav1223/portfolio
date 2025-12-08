@@ -84,7 +84,7 @@ export default function AboutPage() {
             <br />
             <span className="font-semibold text-gray-700">My goals:</span>
             <ul className="list-disc list-inside mt-2 text-base text-gray-600">
-              <li>Help teams focus on meaningful decisions — not manual tasks through automation.</li>
+              <li>Help teams focus on meaningful decisions - not manual tasks through automation.</li>
               <li>Become a full-stack growth marketer who doesn’t rely on just one channel to drive results.</li>
             </ul>
           </>
