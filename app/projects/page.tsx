@@ -4,10 +4,9 @@ import { motion } from 'framer-motion'
 import Footer from '../components/footer'
 
 const tags = [
-  'SEO', 'Growth Loops', 'Automation', 'Zapier', 'GA4',
-  'Headless CMS', 'No-code/low-code builder', 'Content Marketing',
-  'Looker', 'GSC', 'Mixpanel', 'APIs', 'Notion', 'Make.com',
-  'Retention', 'Attribution modelling'
+  'SEO', 'CRM automation', 'Automation', 'Zapier', 'GTM engineering',
+  'Marketing operations', 'No-code/low-code builder', 'Content Marketing',
+  'Looker', 'GSC', 'Mixpanel', 'APIs', 'Notion', 'Make.com', 'Attribution modelling'
 ]
 
 export default function ProjectsPage() {

@@ -76,8 +76,8 @@ export default function HeroSection() {
             words={[
               'Growth Marketing',
               'No-code/Low-code automation',
-              'Content Marketing',
-              'Performance Marketing',
+              'GTM Engineering',
+              'Marketing operations',
             ]}
             loop={true}
             cursor

@@ -8,6 +8,8 @@ const TABS = [
     name: 'What I Do',
     content: [
       'Growth Marketing',
+      'GTM engineering',
+      'CRM automation',
       'SEO',
       'Content Marketing',
       'Marketing Operations',
@@ -30,7 +32,7 @@ const TABS = [
     name: 'Tools I Use',
     content: [
       'Google Search Console',
-      'Google Analytics 4',
+      'n8n',
       'Google Sheets + Apps Script',
       'Ahrefs',
       'SEMrush',
@@ -38,9 +40,9 @@ const TABS = [
       'Mixpanel',
       'Zapier',
       'WordPress',
-      'Vectorshift',
+      'Hubspot',
       'Make',
-      'Pipedream'
+      'Clay'
     ],
   },
 ]
