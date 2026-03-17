@@ -73,7 +73,7 @@ export default function ProjectsPage() {
             <a href="https://wethepeople-project.onrender.com/" className="text-accent font-semibold underline">Try it out →</a>
           </div>
           <div className="p-6 border rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
-            <h3 className="text-xl font-bold mb-2">WeThePeople – Crowdfunding Platform</h3>
+            <h3 className="text-xl font-bold mb-2">Learnpath</h3>
             <p className="text-gray-600 mb-2">A personalized learning roadmap generator that adapts to your marketing background and goals — giving you structured, day-by-day curricula instead of endless open-ended AI chats.
                 Built for marketers who want to learn technical skills like SQL, Python, or data analytics without losing focus or motivation mid-journey.</p>
             <a href="https://learnpath-omega.vercel.app/" className="text-accent font-semibold underline">Try it out →</a>
