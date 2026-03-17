@@ -72,6 +72,12 @@ export default function ProjectsPage() {
             <p className="text-gray-600 mb-2">A MERN stack-powered crowdfunding web app focused on social impact campaigns. Features include user authentication, real-time donations, campaign pages, and progress tracking. All wrapped in a clean, responsive UI.</p>
             <a href="https://wethepeople-project.onrender.com/" className="text-accent font-semibold underline">Try it out →</a>
           </div>
+          <div className="p-6 border rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+            <h3 className="text-xl font-bold mb-2">WeThePeople – Crowdfunding Platform</h3>
+            <p className="text-gray-600 mb-2">A personalized learning roadmap generator that adapts to your marketing background and goals — giving you structured, day-by-day curricula instead of endless open-ended AI chats.
+                Built for marketers who want to learn technical skills like SQL, Python, or data analytics without losing focus or motivation mid-journey.</p>
+            <a href="https://learnpath-omega.vercel.app/" className="text-accent font-semibold underline">Try it out →</a>
+          </div>
         </div>
       </div>
 
@@ -98,6 +104,11 @@ export default function ProjectsPage() {
             <h3 className="text-xl font-bold mb-2">Taskflow GTM Engine</h3>
             <p className="text-gray-600 mb-2">Built a full PLG-ready GTM engine that scores users/accounts from product events and automatically routes PQLs/PQAs into HubSpot with tasks and deals - entirely on free-tier tools.</p>
             <a href="https://lofty-submarine-301.notion.site/TaskFlow-GTM-Engine-Case-Study-Documentation-2c37873b0277805cb804f34a9f4a21b7?pvs=74" className="text-accent font-semibold underline">Read more →</a>
+          </div>
+          <div className="p-6 border rounded-lg shadow-md hover:shadow-xl transition-all duration-300">
+            <h3 className="text-xl font-bold mb-2">GTM - Request Automation Workflow</h3>
+            <p className="text-gray-600 mb-2">A fully automated demo request workflow that enriches lead data, scores prospects using AI, and sends a personalised email - all within 4 minutes of form submission. Built for B2B startups that can't afford to follow up slowly.</p>
+            <a href="https://lofty-submarine-301.notion.site/Request-Automation-Workflow-3267873b02778073ac79eb3f785cb894" className="text-accent font-semibold underline">Read more →</a>
           </div>
         </div>
       </div>
