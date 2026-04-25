@@ -5,44 +5,45 @@ import { motion, AnimatePresence } from 'framer-motion'
 
 const TABS = [
   {
-    name: 'What I Do',
+    name: 'What I Build',
     content: [
-      'Growth Marketing',
-      'GTM engineering',
-      'CRM automation',
+      'AI-Powered Marketing Systems',
+      'Pipeline and Workflow Automation',
+      'No-code/Low-code Internal Tools',
+      'Content Systems',
       'SEO',
-      'Content Marketing',
+      'Growth Marketing',
+      'GTM Engineering',
       'Marketing Operations',
-      'Web Development',
-      'No-code/Low-code Automation',
-      'AI Content Creation',
     ],
   },
   {
     name: 'Soft Skills',
     content: [
-      'Time Management',
+      'Systems Thinking',
       'Project Management',
       'Problem Solving',
-      'Team Player',
+      'Cross-functional Collaboration',
       'Adaptability',
     ],
   },
   {
-    name: 'Tools I Use',
+    name: 'Tools and Stack',
     content: [
-      'Google Search Console',
+      'Python',
+      'JavaScript',
+      'SQL',
+      'Vectorshift',
+      'LLM API Integration',
+      'Coding Agents',
       'n8n',
+      'Make / Zapier',
       'Google Sheets + Apps Script',
-      'Ahrefs',
-      'SEMrush',
+      'Google Search Console',
+      'Ahrefs / SEMrush',
       'Looker',
       'Mixpanel',
-      'Zapier',
-      'WordPress',
-      'Hubspot',
-      'Make',
-      'Clay'
+      'Clay',
     ],
   },
 ]
@@ -53,10 +54,8 @@ export default function SkillsSection() {
   return (
     <section className="w-full py-24 px-4 bg-white text-gray-800" id="skills">
       <div className="max-w-5xl mx-auto">
-        {/* Section Title */}
-        <h2 className="text-3xl font-semibold text-center mb-10">Skills & Tools</h2>
+        <h2 className="text-3xl font-semibold text-center mb-10">Skills and Tools</h2>
 
-        {/* Tabs */}
         <div className="flex justify-center gap-6 border-b border-gray-200 mb-8">
           {TABS.map((tab, index) => (
             <button
@@ -80,7 +79,6 @@ export default function SkillsSection() {
           ))}
         </div>
 
-        {/* Content */}
         <AnimatePresence mode="wait">
           <motion.div
             key={activeTab}

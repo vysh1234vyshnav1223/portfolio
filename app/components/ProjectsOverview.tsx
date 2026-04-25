@@ -6,19 +6,16 @@ export default function ProjectsSection() {
   return (
     <section className="w-full py-24 px-4 bg-gray-50 text-gray-800" id="projects">
       <div className="max-w-6xl mx-auto">
-        {/* Title */}
         <motion.h2
           className="text-3xl font-semibold text-center mb-12"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          Featured Projects/Case Studies
+          Featured Projects &amp; Case Studies
         </motion.h2>
 
-        {/* Grid */}
         <div className="grid md:grid-cols-3 gap-8">
-          {/* Project 1 */}
           <motion.a
             href="/projects"
             className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 group"
@@ -28,16 +25,15 @@ export default function ProjectsSection() {
           >
             <img
               src="/project1.png"
-              alt="Project 1"
+              alt="FirstPage AI"
               className="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300"
             />
             <div className="p-4">
-              <h3 className="text-xl font-semibold mb-2">Firstpage AI</h3>
-              <p className="text-gray-600 text-sm mb-2">Google Generative AI, FAISS (RAG), Markdown knowledge base, Python</p>
+              <h3 className="text-xl font-semibold mb-2">FirstPage AI</h3>
+              <p className="text-gray-600 text-sm">AI copy engine built on Google Generative AI and FAISS RAG. Turns a custom knowledge base into structured, high-converting landing page copy in seconds.</p>
             </div>
           </motion.a>
 
-          {/* Project 2 */}
           <motion.a
             href="/projects"
             className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 group"
@@ -47,16 +43,15 @@ export default function ProjectsSection() {
           >
             <img
               src="/project2.png"
-              alt="Project 2"
+              alt="On-Page SEO Checker"
               className="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300"
             />
             <div className="p-4">
-              <h3 className="text-xl font-semibold mb-2">On page SEO Checker</h3>
-              <p className="text-gray-600 text-sm mb-2">Appsmith, Apify, Apps Script (Google Sheets)</p>
+              <h3 className="text-xl font-semibold mb-2">On-Page SEO Checker</h3>
+              <p className="text-gray-600 text-sm">No-code SEO audit tool built on Appsmith, Apify, and Apps Script. Instant actionable insights for content teams without technical overhead.</p>
             </div>
           </motion.a>
 
-          {/* Project 3 */}
           <motion.a
             href="/projects"
             className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition-all duration-300 group"
@@ -66,17 +61,16 @@ export default function ProjectsSection() {
           >
             <img
               src="/project3.png"
-              alt="Project 3"
+              alt="Marketing Psychology - Comet"
               className="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-300"
             />
             <div className="p-4">
-              <h3 className="text-xl font-semibold mb-2">Marketing Psychology - “Comet”</h3>
-              <p className="text-gray-600 text-sm mb-2">Marketing fundamentals, Growth loops, Brand marketing</p>
+              <h3 className="text-xl font-semibold mb-2">Marketing Psychology – Comet</h3>
+              <p className="text-gray-600 text-sm">Deep dive into how one of India's most distinctive brands uses psychological tactics, anchoring, scarcity, and social proof to drive results.</p>
             </div>
           </motion.a>
         </div>
 
-        {/* CTA Link */}
         <div className="text-center mt-10">
           <a href="/projects" className="relative group text-accent font-medium">
             View all projects

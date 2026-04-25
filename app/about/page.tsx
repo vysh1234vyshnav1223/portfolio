@@ -8,20 +8,18 @@ export default function AboutPage() {
     <>
     <section className="min-h-screen py-24 px-6 bg-gradient-to-br from-[#e0f7fa] via-[#b2ebf2] to-[#80deea] text-gray-800">
       <div className="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-12">
-        {/* Text Section */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.6 }}
           className="flex-1"
         >
-          <h1 className="text-4xl font-bold mb-6">Hello there 👋</h1>
+          <h1 className="text-4xl font-bold mb-6">About Me</h1>
           <p className="text-lg text-gray-700 mb-4">
-            The ‘About Me’ bit you actually want to read ↓
+            Content systems engineer. Growth specialist. Builder of things that automate the tedious.
           </p>
         </motion.div>
 
-        {/* Image Section */}
         <motion.div
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
@@ -42,49 +40,38 @@ export default function AboutPage() {
           </div>
         </motion.div>
       </div>
-      {/* In-depth Description Section */}
-      <div className="max-w-4xl mx-auto px-6 py-20 text-center">
+
+      <div className="max-w-4xl mx-auto px-6 py-20">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="text-3xl font-bold mb-6"
+          className="text-3xl font-bold mb-8"
         >
-          My Story
+          The longer version
         </motion.h2>
-        <motion.p
+        <motion.div
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-lg text-gray-600 leading-relaxed space-y-4"
+          className="text-lg text-gray-700 leading-relaxed space-y-6"
         >
-          <>
-            <span>
-              I didn’t exactly set out to become a digital marketer. I kind of stumbled into it. But once I realized the fun part, there was no going back.
-            </span>
-            <br />
-            <br />
-            <span>
-              Over the past few years, I’ve worked primarily in the organic growth side of marketing (SEO, Content, Social Media, and Marketing Operations).
-              I’ve been building systems that get attention and convert. From optimizing blogs that drive traffic to building internal tools using no-code platforms,
-              I love tinkering with things until they just work smarter.
-            </span>
-            <br />
-            <br />
-            <span>
-              Most recently, I’ve been diving into performance marketing to complete the paid side of the growth puzzle. I also enjoy automating workflows,
-              processes, and manual tasks, the kind that save hours of repetitive work for my team.
-            </span>
-            <br />
-            <br />
-            <span>
-              I’m not here to throw jargon or buzzwords. I like building cool stuff, sharing what I learn, and chasing wins. One experiment at a time.
-            </span>
-            <br />
-            <br />
-          </>
-        </motion.p>
-
+          <p>
+            I work at the intersection of marketing, AI, and engineering. My job is to give growth teams leverage by building systems and pipelines that scale output without scaling headcount.
+          </p>
+          <p>
+            My background spans the full growth stack: SEO, content marketing, performance marketing, CRM, marketing operations, and the automation layer that ties it all together. I have run end-to-end campaigns, managed organic growth, built internal tools, and shipped AI pipelines that solve real problems for real teams.
+          </p>
+          <p>
+            More recently, I have been building AI-powered workflows on platforms like Vectorshift and N8N, automating processes that used to eat hours, building audit systems that surface actionable fixes automatically, and writing custom Python scripts to streamline what teams previously did by hand. If there is a repetitive process in a marketing workflow, I have probably built something to automate it.
+          </p>
+          <p>
+            What makes this interesting is where I sit. I can think in marketing strategy and execute in Python, n8n, or Vectorshift. I understand the content objectives well enough to build systems that actually serve them, not just automate for the sake of it. This intersection between content, AI, and engineering means I add value across functions rather than just one lane.
+          </p>
+          <p>
+            I am looking for teams that want to scale their marketing efforts with AI and automation, where there is real ambition and room to build. If that sounds like you, let us talk.
+          </p>
+        </motion.div>
       </div>
     </section>
     <Footer />

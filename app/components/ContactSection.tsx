@@ -12,7 +12,7 @@ export default function ContactSection() {
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-3xl font-semibold mb-6">Let's Connect</h2>
         <p className="text-gray-700 mb-10 max-w-xl mx-auto">
-          Whether you have a project in mind, want to collaborate, or just want to say hi - I'm just a message away.
+          If you are a marketing or growth team looking to scale with AI and automation, I am one email away.
         </p>
 
         <div className="flex flex-col items-center space-y-3">
@@ -26,7 +26,7 @@ export default function ContactSection() {
           </motion.a>
 
           <p className="text-sm text-gray-600">
-            If the button doesn't work, just email me at{' '}
+            Or reach me directly at{' '}
             <span className="underline text-accent">vyshnavnair378@gmail.com</span>
           </p>
         </div>
